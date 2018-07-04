@@ -49,7 +49,7 @@ async function checkLog(id) {
             let cmt = json.data[j].message;
             let reg = new RegExp(id, "g");
             let result = cmt.match(reg);
-            return result != null;
+            return result == null;
         }
     });
 }
