@@ -1,0 +1,20 @@
+{
+  "name": "bfg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hashtag.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.17.5",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
